@@ -3,7 +3,7 @@
 个人博客，基于 [Astro](https://astro.build) 的 Blog 模板，部署在 **Cloudflare Pages**。
 
 - 仓库：<https://github.com/plants13/plants13-blog>
-- 线上地址：<https://plants13-blog.pages.dev>
+- 线上地址：<https://plants13.neorizon.xyz>
 
 ## 本地开发
 

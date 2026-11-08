@@ -11,7 +11,7 @@ pubDate: '2026-11-08'
 - 纯静态站点，构建产物在 `dist/`
 - 文章放在 `src/content/blog/`，写 Markdown 或 MDX
 - 有 RSS、站点地图、语义化 SEO 标签
-- 部署后访问：<https://plants13-blog.pages.dev>
+- 部署后访问：<https://plants13.neorizon.xyz>
 
 ## 怎么发新文章
 
