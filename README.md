@@ -16,6 +16,10 @@ npm run preview  # 预览构建产物
 
 要求 Node.js >= 22.23.4（已提供 `.nvmrc`）。
 
+> **依赖源说明**：`package-lock.json` 里的下载地址固定为官方源 `registry.npmjs.org`，以便 Cloudflare 构建稳定。
+> 本机如果配置了淘宝镜像，更新依赖后请检查 lockfile 里的 `resolved` 是否被改回镜像地址，必要时执行
+> `npm install --registry=https://registry.npmjs.org` 重新生成。
+
 ## 写文章
 
 在 `src/content/blog/` 下新建 `.md` 或 `.mdx` 文件：
