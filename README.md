@@ -2,7 +2,7 @@
 
 个人博客，基于 [Astro](https://astro.build) 的 Blog 模板，部署在 **Cloudflare Pages**。
 
-- 仓库：<https://github.com/plants13/plants13-blog>（私有）
+- 仓库：<https://github.com/plants13/plants13-blog>
 - 线上地址：<https://plants13-blog.pages.dev>
 
 ## 本地开发
@@ -34,10 +34,10 @@ pubDate: '2026-11-08'
 
 ## 部署到 Cloudflare Pages
 
-因为是**私有仓库**，Cloudflare 需要单独授权，步骤：
+仓库是公开的，Cloudflare 可以直接读取。步骤：
 
 1. Cloudflare Dashboard → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**
-2. 首次使用需安装 **Cloudflare GitHub App**，在授权页面选择 **Only select repositories**，勾选 `plants13-blog`
+2. 首次使用需安装 **Cloudflare GitHub App** 并授权访问 `plants13-blog`
 3. 选择仓库后，构建配置填：
 
    | 配置项 | 值 |
