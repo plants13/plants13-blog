@@ -89,3 +89,9 @@ description: 一句话摘要，用于 SEO 和列表页
 ```
 
 主题版权归 [AstroPaper](https://github.com/satnaing/astro-paper) 作者；MiSans 遵循小米的开源许可，可免费商用。
+
+> **注意：lockfile 打过补丁**。Astro 7 内部同时依赖 `satteri@0.10.x` 和 `@bruits/satteri@0.11.x`，
+> npm 会把两套平台二进制都写进 lockfile，并把 `0.10.x` 那批错误地标成 `extraneous`（非 optional），
+> 导致 Cloudflare 的 Linux 构建 `npm ci` 报 `EBADPLATFORM`。
+> 已把这些条目的 `"extraneous": true` 改为 `"optional": true`。
+> 如果以后重新生成 lockfile 又出现同样的构建错误，按这个规则再改一遍即可。
